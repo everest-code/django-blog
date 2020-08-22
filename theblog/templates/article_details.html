@@ -1,4 +1,4 @@
-
+{% block title%}{{ post.title_tag }}{% endblock %}
 
 <h1>{{ post.title }}</h1>
 <small>By: {{ post.author.first_name }} {{ post.author.first_name }}
@@ -9,4 +9,5 @@
 
 
 <br/><br/>
-<a href="{% url 'home' %}">Back</a>
+
+>Back</a>
